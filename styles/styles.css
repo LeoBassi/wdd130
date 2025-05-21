@@ -1,10 +1,15 @@
+:root {
+    --heading-color: white;
+    --heading-background-color: darkblue;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--heading-color);
     display: block;
     padding: 20px;
 }
@@ -34,8 +39,8 @@ aside {
     margin: 10px;
     border: 10px;
     padding: 10px;
-    background-color: darkblue;
-    color: white;
+    background-color: var(--heading-background-color);
+    color: var(--heading-color);
     text-align: center;
 }
 
