@@ -45,34 +45,34 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+    box-shadow: 0 0 30px grey;
  }
 
  h1 {
     position: absolute;
-    top: 40px;
+    top: 30px;
     width: 100%;
-    padding: 16px;
+    padding: 20px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.8;
     background-color: var(--accent2-color);
     color: white;
  }
 
 article {
     position: absolute;
-    top: 140px;
-    right: 0px;
-    width: 35%;
+    top: 110px;
+    width: 96%;
     padding: 0px;
-    text-align: center;
+    text-align: left;
     opacity: 0.9;
     background-color: var(--accent2-color);
     color: white;
  }
 
  .hero article img {
-    float:  right;
-    width: 100%;
-    padding: 10px;
+    float: right;
+    width: 150px;
+    padding: 5px;
 
  }
