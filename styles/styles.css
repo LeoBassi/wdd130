@@ -1,29 +1,27 @@
 body {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 * {
-    margin-left: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 :root {
     --heading-color: #000000;
-    --heading-background-color: #d1a455;
-    --background-color: #1b1b9d;
+    --heading-background-color: #1b1b9d;
+    --background-color: #dbc298;
+    --border: #000;
 }
 
 nav {
-    background-color: var(--background-color);
+    background-color: var(--heading-background-color);
     padding: 1rem;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    border: solid #000;
-    border-width: 1px;
-    
-
+    justify-content: space-evenly;
 }
 
 nav a {
@@ -37,38 +35,39 @@ nav a {
 }
 
 h1 {
-    color: var(--heading-background-color);
-    border-bottom: solid 2px var(--heading-background-color);
-    }
+    color: var(--heading-color);
+    border-bottom: solid 2px var(--border);
+    margin-bottom: 20px;
+}
 
 h2 {
     color: var(--heading-color)
 }
+main {
+    margin: 40px;
+    grid-column: 2;
+}
 
 main img {
     
-    width: 150px;
+    width: 180px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: 0 0 1rem 1rem;
+    margin: 1rem;
 
 }
 
-p {
-    padding: 0;
+header, footer, .grid {
+    max-width: 840px;
+    margin: auto 0;
 }
 
 .grid {
     display: grid;
     align-items: center;
-}
-
-main {
-    grid-column: 2/3;
-    margin: 1rem;
 }
 
 aside {
@@ -81,15 +80,19 @@ aside {
 aside img {
     width: 280px;
     height: auto;
-    
-}
+    }
 
 aside h2 {
     position: absolute;
     font-size: 20px;
-    top: 10px;
-    left: 70px;
-   }
+    top: 30px;
+    left: 80px;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 footer {
     margin-top: 15px;
@@ -97,18 +100,13 @@ footer {
     text-align: center;
 }
 
-header, .grid, footer{
-    max-width: 840px;
-    margin:auto 0;
-}
-
 /* Class Selectors */
 
 .box {
-    margin: 1rem;
+    margin: 1px;
     border: 1px solid black;
-    padding: 1rem;
-    background-color: var(--heading-background-color);
-    color: var(--heading-color);
+    padding: 25px;
+    background-color: var(--background-color);
+    color: var(--border);
 }
 
