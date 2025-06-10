@@ -130,11 +130,11 @@ nav, p, section, article {
 }
 
 
-.hero {
+.hero, .contact-us {
     position: relative;
 }
 
-.hero img {
+.hero img, .contact-us img {
     display: block;
     width: 100%;
     height: auto;
@@ -168,3 +168,111 @@ article {
     width: 150px;
     padding: 5px;
  }
+
+ .message {
+    text-align: center;
+    padding: 5%;
+ }
+
+.team {
+    text-align: center;
+}
+
+ .profile-pictures {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 5%;          
+ }
+
+ .profile-pictures img {
+    border-radius: 50%;
+ }
+
+.space {
+    padding: 50px;
+}
+
+ form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid var(--accent1-color);
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: .5rem;
+    color: var(--accent1-color);
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: Tomorrow, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 2rem;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    vertical-align: bottom;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    
+}
+
+button {
+    width: 250px;
+    margin: 1rem;
+    background-color: var(--accent2-color);
+    color: #fff;
+    border: solid var(--primary-color) 1px;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color:  rgb(0, 173, 0);
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    vertical-align: bottom;
+}
+
+.contact-information {
+    display: grid;
+    align-items: center;
+}
+
+.name-email {
+    grid-template-columns: 1fr 7fr;
+}
+
+.message-purpose {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
