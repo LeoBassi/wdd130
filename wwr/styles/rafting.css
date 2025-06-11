@@ -237,7 +237,6 @@ input[type="checkbox"] {
 .button {
     display: flex;
     justify-content: center;
-    
 }
 
 button {
@@ -257,7 +256,6 @@ button:hover {
 input[type="checkbox"] {
     width: 25px;
     height: 25px;
-    vertical-align: bottom;
 }
 
 .contact-information {
