@@ -110,25 +110,23 @@ nav, p, section, article {
 }
 
 .footer {
-    display: flex;
+    display: grid;
     align-items: center;
-    justify-content: space-between;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center
 }
 
-.footer-content {
-    flex-grow: 1;
-    text-align: center;
-}
-
-.social-icons {
-    display: flex;
+.about-us {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 3fr 1fr;
+    text-align: center
 }
 
 .social-icons img {
     width: 40px;
     height: 40px;
 }
-
 
 .hero, .contact-us {
     position: relative;
@@ -190,7 +188,7 @@ article {
  }
 
 .space {
-    padding: 50px;
+    padding: 30px;
 }
 
  form {
@@ -257,8 +255,8 @@ button:hover {
 }
 
 input[type="checkbox"] {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     vertical-align: bottom;
 }
 
@@ -272,7 +270,10 @@ input[type="checkbox"] {
 }
 
 .message-purpose {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 2fr 1fr ;
     margin: 0.5rem 0;
 }
 
+.feedback {
+    grid-template-columns: 4fr 1fr;
+}
