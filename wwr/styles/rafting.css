@@ -275,3 +275,11 @@ input[type="checkbox"] {
 .feedback {
     grid-template-columns: 4fr 1fr;
 }
+
+.general, .reservation, .suggestion {
+    padding: 2%;
+}
+
+.suggestion {
+    padding-bottom: 5%;
+}
