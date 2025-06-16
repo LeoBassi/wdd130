@@ -305,6 +305,7 @@ input[type="checkbox"] {
     padding: 20px;
     padding-top: 60px;
     background-color: var(--accent2-color);
+    opacity: 0.9;
     color: #ffffff;
 }
 
@@ -322,7 +323,7 @@ input[type="checkbox"] {
     padding: 20px 24px;
     font-size: 20px;
     font-weight: bold;
-    color: var(--accent2-color);
+    color: var(--accent1-color);
     background-color: var(--secondary-color);
     text-decoration: none; 
 }
