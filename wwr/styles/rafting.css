@@ -128,11 +128,11 @@ nav, p, section, article {
     height: 40px;
 }
 
-.hero, .contact-us {
+.hero-about, .contact-us {
     position: relative;
 }
 
-.hero img, .contact-us img {
+.hero-about img, .contact-us img {
     display: block;
     width: 100%;
     height: auto;
@@ -161,7 +161,7 @@ article {
     color: white;
  }
 
- .hero article img {
+ .hero-about article img {
     float: right;
     width: 150px;
     padding: 5px;
@@ -191,7 +191,7 @@ article {
     padding: 30px;
 }
 
- form {
+form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
@@ -282,4 +282,54 @@ input[type="checkbox"] {
 
 .suggestion {
     padding-bottom: 5%;
+}
+
+.hero-container img {
+  width: 100%;
+}
+
+.hero-container h1 {
+    position: absolute;
+    top: 30%;
+    width: 50%;
+    padding: 40px;
+}
+
+.newsletter {
+    padding-top: 5%;
+    display: flex;
+}
+
+
+.call {
+    text-align: center;
+    padding: 20px;
+    padding-top: 60px;
+    background-color: var(--accent2-color);
+    color: #ffffff;
+}
+
+.call h2 {
+    color: var(--secondary-color);
+}
+
+.call p {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.call a {
+    display: inline-block;
+    padding: 20px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--accent2-color);
+    background-color: var(--secondary-color);
+    text-decoration: none; 
+    
+}
+
+.call a:hover {
+    background-color:  rgb(52, 179, 229);
+    color:var(--secondary-color)
 }
