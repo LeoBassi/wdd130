@@ -291,17 +291,19 @@ input[type="checkbox"] {
 .hero-container h1 {
     position: absolute;
     top: 30%;
-    width: 50%;
+    width: 40%;
     padding: 40px;
 }
 
 .newsletter {
-    padding-top: 5%;
+    padding-top: 30px;
+    padding-bottom: 10px;
     display: flex;
 }
 
 .call {
     text-align: center;
+    width: 700px;
     padding: 20px;
     padding-top: 60px;
     background-color: var(--accent2-color);
@@ -331,4 +333,22 @@ input[type="checkbox"] {
 .call a:hover {
     background-color:  rgb(52, 179, 229);
     color:var(--secondary-color)
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-container p {
+    text-align: center;
+    font-size: 18px;
+    color: #720810;
 }
