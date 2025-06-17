@@ -290,8 +290,8 @@ input[type="checkbox"] {
 
 .hero-container h1 {
     position: absolute;
-    top: 30%;
-    width: 40%;
+    top: 250px;
+    width: 900px;
     padding: 40px;
 }
 
