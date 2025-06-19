@@ -389,5 +389,13 @@ input[type="checkbox"] {
 }
 
 .trip-descriptions img {
-    width: 70%;
+    width: 80%;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+.trip-descriptions p {
+    margin-bottom: 70px;
 }
