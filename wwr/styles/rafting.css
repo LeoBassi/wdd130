@@ -284,12 +284,10 @@ input[type="checkbox"] {
     padding-bottom: 5%;
 }
 
-/* Here */
-
 .hero-container img {
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .hero-container h1 {
